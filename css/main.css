@@ -113,11 +113,21 @@ a {
 
 .tb-sect {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-size: 40px;
 }
 
 .tbq {
   width: 500px;
   text-align: center;
+}
+
+.tbq-info {
+  font-size: 10px;
+  color: #a4a4a4;
+  width: 350px;
+  text-align: center;
+  padding: 20px 0;
 }
