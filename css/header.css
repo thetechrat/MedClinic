@@ -1,3 +1,49 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.nav-item {
+  color: #1e1e1e;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #1580eb;
+}
+
+.brand {
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.brand span {
+  color: #1580eb;
+}
+
+.register {
+  background-color: #1580eb;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
