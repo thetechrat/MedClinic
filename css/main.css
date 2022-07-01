@@ -98,3 +98,10 @@ a {
   background-color: #1580eb;
   fill: #1580eb;
 }
+
+.con-head {
+  display: flex;
+  gap: 10px;
+  font-size: 25px;
+  align-items: center;
+}
