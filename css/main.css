@@ -4,9 +4,13 @@
 
 body {
   font-family: "Lexend";
+  background-color: rgb(242, 255, 255);
+  margin: 0;
+}
+
+section {
   margin-left: 50px;
   margin-right: 50px;
-  background-color: rgb(237, 247, 252);
 }
 
 a {
@@ -165,4 +169,10 @@ a {
   height: 302px;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+
+.schedule {
+  height: 700px;
+  background-color: lightblue;
+  margin: 0;
 }
