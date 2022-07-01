@@ -4,8 +4,30 @@
 
 body {
   font-family: "Lexend";
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 a {
   text-decoration: none;
+}
+
+.app-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mapp {
+  font-size: 60px;
+}
+
+.span {
+  color: #1580eb;
+}
+
+.app-txt {
+  display: flex;
+  align-items: flex-end;
+  font-size: 15px;
+  padding-bottom: 10px;
 }
