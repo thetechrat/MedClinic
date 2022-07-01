@@ -6,6 +6,7 @@ body {
   font-family: "Lexend";
   margin-left: 50px;
   margin-right: 50px;
+  background-color: rgb(237, 247, 252);
 }
 
 a {
@@ -130,4 +131,38 @@ a {
   width: 350px;
   text-align: center;
   padding: 20px 0;
+}
+
+.card-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-b {
+  background-color: #1580eb;
+}
+
+.cards {
+  background-color: white;
+}
+
+.two,
+.four,
+.six {
+  margin-top: 150px;
+}
+
+.card-col {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.card-b,
+.cards {
+  width: 604px;
+  height: 302px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
