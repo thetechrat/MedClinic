@@ -12,9 +12,13 @@ a {
   text-decoration: none;
 }
 
-.app-div {
+.app-div,
+.app {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .mapp {
@@ -30,4 +34,67 @@ a {
   align-items: flex-end;
   font-size: 15px;
   padding-bottom: 10px;
+}
+
+.icon {
+  background-color: skyblue;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.mds-icon {
+  z-index: 2;
+  width: 24px;
+  fill: none;
+  stroke: #1580eb;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+
+.adv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.img-top {
+  position: relative;
+}
+
+.img-bg {
+  background-color: skyblue;
+  width: 916px;
+  height: 574px;
+}
+
+.top-img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.con-box {
+  background-color: white;
+  width: 268px;
+  height: 157px;
+  z-index: 5;
+  position: absolute;
+  right: -50px;
+  bottom: -40px;
+  box-shadow: -5px 0 40px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-icon #con-icon {
+  background-color: #1580eb;
+  fill: #1580eb;
 }
