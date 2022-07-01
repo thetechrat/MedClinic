@@ -92,6 +92,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .svg-icon #con-icon {
@@ -104,4 +105,19 @@ a {
   gap: 10px;
   font-size: 25px;
   align-items: center;
+}
+
+.con-info {
+  width: 150px;
+}
+
+.tb-sect {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.tbq {
+  width: 500px;
+  text-align: center;
 }
