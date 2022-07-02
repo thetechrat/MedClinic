@@ -206,16 +206,42 @@ a {
   justify-content: space-between;
   width: 600px;
   flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px;
 }
 
-.app-btns a {
+.btn-one,
+.btn-two,
+.btn-three,
+.btn-four {
   display: flex;
   align-items: center;
-  justify-content: ;
   font-size: small;
   width: 250px;
-  padding: 10px;
+  padding: 20px 10px;
   background-color: white;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   justify-content: center;
+  border: 2px solid #a4a4a4;
+  border-radius: 4px;
+  color: black;
+}
+
+.btn-one {
+  padding: 0 10px;
+}
+
+.btn-one div {
+  padding: 10px;
+}
+
+.btn-three {
+  color: #1580eb;
+  font-weight: bold;
+}
+
+.btn-four {
+  background-color: #1580eb;
+  border: none;
+  color: white;
 }
