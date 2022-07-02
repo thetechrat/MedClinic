@@ -145,6 +145,8 @@ a {
 
 .card-b {
   background-color: #1580eb;
+  padding: 50px;
+  color: white;
 }
 
 .cards {
@@ -169,6 +171,10 @@ a {
   height: 302px;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+
+.card-heading {
+  font-size: x-large;
 }
 
 .schedule {
