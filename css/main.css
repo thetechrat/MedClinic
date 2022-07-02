@@ -200,3 +200,22 @@ a {
   width: 600px;
   color: #a4a4a4;
 }
+
+.app-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  flex-wrap: wrap;
+}
+
+.app-btns a {
+  display: flex;
+  align-items: center;
+  justify-content: ;
+  font-size: small;
+  width: 250px;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+  justify-content: center;
+}
