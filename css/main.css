@@ -172,10 +172,24 @@ a {
   height: 302px;
   border-radius: 15px 15px 0 15px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .card-no1 {
   background-color: #8bc5f1;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px 0 0 0;
+  color: white;
+  font-size: x-large;
+  padding: 28px 0 0 28px;
+}
+
+.card-no {
+  background-color: #1580eb;
   width: 60px;
   height: 60px;
   position: absolute;
