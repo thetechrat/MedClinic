@@ -172,7 +172,31 @@ a {
 }
 
 .schedule {
-  height: 700px;
-  background-color: lightblue;
-  margin: 0;
+  height: 670px;
+  background-color: #e5f1fa;
+  margin: 120px 0;
+  position: relative;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule img {
+  position: absolute;
+  bottom: 0;
+  width: 549px;
+}
+
+.schedule-info {
+  font-size: 50px;
+  width: 700px;
+  padding-left: 60px;
+}
+
+.app-info {
+  font-size: 20px;
+  padding: 30px 0;
+  width: 600px;
+  color: #a4a4a4;
 }
