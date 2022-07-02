@@ -169,7 +169,7 @@ a {
 .cards {
   width: 604px;
   height: 302px;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 8px;
   margin-bottom: 20px;
 }
 
