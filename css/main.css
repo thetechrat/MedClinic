@@ -169,7 +169,7 @@ a {
 .card-b,
 .cards {
   width: 604px;
-  height: 302px;
+  height: 250px;
   border-radius: 15px 15px 0 15px;
   margin-bottom: 20px;
   position: relative;
@@ -217,6 +217,11 @@ a {
 }
 
 .rm {
+  padding-top: 20px;
+  color: black;
+}
+
+.rmp {
   padding-top: 20px;
   color: white;
 }
