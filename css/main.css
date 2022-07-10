@@ -300,3 +300,27 @@ a {
   border: none;
   color: white;
 }
+
+#team {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.dr-profile {
+  background-color: white;
+  padding: 20px;
+}
+
+.pfp-bg {
+  background-color: #a9cdf0;
+}
+
+.pfp-bg img {
+  width: 200x;
+}
